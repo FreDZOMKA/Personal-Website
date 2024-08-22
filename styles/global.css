@@ -1,0 +1,92 @@
+/* TT-Interphases Pro */
+@font-face {
+  font-family: "TT-Interphases";
+  src: url(../External-Resources/TT-Interphases-Pro/Thin.ttf);
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT-Interphases";
+  src: url(../External-Resources/TT-Interphases-Pro/Light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT-Interphases";
+  src: url(../External-Resources/TT-Interphases-Pro/Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT-Interphases";
+  src: url(../External-Resources/TT-Interphases-Pro/Italic.ttf);
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT-Interphases";
+  src: url(../External-Resources/TT-Interphases-Pro/Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "TT-Interphases";
+  font-weight: 700;
+  font-style: normal;
+}
+
+p {
+  font-family: "TT-Interphases";
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* TT-Interphases Pro MONO */
+@font-face {
+  font-family: "TT-Pro-Mono";
+  src: url(../External-Resources/Pro-Mono/Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT-Pro-Mono";
+  src: url(../External-Resources/Pro-Mono/Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+a,
+span {
+  color: white;
+  font-family: "TT-Pro-Mono";
+  font-weight: 400;
+  font-style: normal;
+}
+/* Color Variables */
+
+/* Styling */
+body {
+  color: white;
+  background-color: black;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.head-navigation {
+  padding: 14px 18%;
+}
+
+.nav-right {
+  float: inline-end;
+}

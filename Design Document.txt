@@ -1,0 +1,6 @@
+This document should describe design decisions and rules.
+Can contain functionality but instructions stay in README.md
+
+
+Font
+All running text headers text meant to be read uses 
