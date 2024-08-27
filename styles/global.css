@@ -65,10 +65,11 @@ p {
 }
 a,
 span {
-  color: white;
+  color: rgb(157, 207, 255); /* Temp color change this later */
   font-family: "TT-Pro-Mono";
   font-weight: 400;
   font-style: normal;
+  text-decoration: none;
 }
 /* Color Variables */
 

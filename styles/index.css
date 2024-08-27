@@ -1,3 +1,11 @@
 #intro-text {
   font-size: 32pt;
+  display: inline;
+}
+
+#browseLinks {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  text-align: right;
 }
