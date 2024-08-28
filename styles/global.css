@@ -65,11 +65,12 @@ p {
 }
 a,
 span {
-  color: rgb(157, 207, 255); /* Temp color change this later */
   font-family: "TT-Pro-Mono";
   font-weight: 400;
   font-style: normal;
-  text-decoration: none;
+}
+a {
+  color: blue;
 }
 /* Color Variables */
 
@@ -83,11 +84,35 @@ body {
   display: flex;
   justify-content: center;
 }
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
 
 .head-navigation {
-  padding: 14px 18%;
+  padding: 5px 0%;
+  gap: 10px;
+  font-size: 20px;
 }
 
 .nav-right {
   float: inline-end;
+}
+
+.nav-logo{
+  color: white;
+  text-decoration: none;
+  font-weight:700;
+}
+
+#timeEl{
+  margin: 0px;
+}
+
+/* Want to use these to animate C and V to spell out Curriculum Vitae */
+#cV {
+  display: inline;
+}
+#vC {
+  display: inline;
 }
