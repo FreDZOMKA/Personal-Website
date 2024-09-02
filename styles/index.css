@@ -1,12 +1,14 @@
 #intro-head {
-  font-size: 32pt;
-  margin: 1rem;
-  margin-bottom: 2rem;
+  font-size: 68pt;
+  margin: 0rem;
 }
 
-.intro-text{
+#intro-text {
   text-align: center;
-  font-size: 18pt;
+  font-size: 13pt;
+  font-family: "TT-Pro-Mono";
+  font-weight: 400;
+  font-style: normal;
 }
 
 #browseLinks {
@@ -20,4 +22,25 @@
   background-color: red;
   width: 50px;
   height: 50px;
+}
+
+#starField {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.project-li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project-li > h2 {
+  font-size: 32pt;
+}
+
+.smallStars {
+  color: white;
 }

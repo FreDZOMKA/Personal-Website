@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="30"
+   height="30"
+   viewBox="0 0 120 120"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title20">flower</title>
+  <defs
+     id="defs1" />
+  <g
+     id="layer1">
+    <path
+       id="rect16"
+       style="stroke-width:3.7126;stroke-linejoin:round;fill:#ffffff;fill-opacity:1;stroke:none"
+       d="M 13.407549,106.80263 C 81.704965,72.682624 68.812125,42.130097 13.197369,13.407549 45.479556,75.249195 76.629513,76.161792 106.59245,13.197369 42.562747,45.124458 46.046778,76.213791 106.80263,106.59246 78.693275,52.731515 48.455944,36.842385 13.407549,106.80263 Z" />
+  </g>
+  <metadata
+     id="metadata20">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>flower</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
