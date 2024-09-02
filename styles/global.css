@@ -113,11 +113,18 @@ body {
 /* Want to use these to animate C and V to spell out Curriculum Vitae */
 #cV {
   display: inline;
+  margin: 0;
 }
 #vC {
   display: inline;
+  margin: 0;
 }
 
 .hero {
   height: 600px;
+}
+
+.header1 {
+  font-size: 48pt;
+  margin: 0.5em;
 }

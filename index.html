@@ -30,16 +30,18 @@
     </nav>
 -->
     <div class="flex-center hero" style="flex-direction: column">
-      <p id="intro-head"></p>
+      <h1 id="intro-head"></h1>
       <p id="intro-text"></p>
     </div>
 
     <section id="starField" alt="A section of the page filled with stars"></section>
     <section>
-      <h1 class="flex-center" style="margin-top: 100px">Projects</h1>
-      <span class="project-li">
-        <h2>Jönköping City Clone</h2>
+      <h1 class="header1 flex-center">Projects</h1>
+      <!-- Grid for Project -->
+      <div class="project-grid">
+        <h2 style="grid-row: 1; grid-column: 2">Ruthless Cowboy</h2>
         <svg
+          style="grid-row: 1; grid-column: 3"
           width="55"
           height="55"
           viewBox="0 0 120 120"
@@ -64,10 +66,10 @@
             />
           </g>
         </svg>
-      </span>
-      <span class="project-li">
-        <h2>Ruthless Cowboy</h2>
+
+        <h2 style="grid-row: 2; grid-column: 2">CRUD Portfolio Website</h2>
         <svg
+          style="grid-row: 2; grid-column: 3"
           width="55"
           height="55"
           viewBox="0 0 120 120"
@@ -92,10 +94,10 @@
             />
           </g>
         </svg>
-      </span>
-      <span class="project-li">
-        <h2>CRUD Portfolio Website</h2>
+
+        <h2 style="grid-row: 3; grid-column: 2">Jönköping City Clone</h2>
         <svg
+          style="grid-row: 3; grid-column: 3"
           width="55"
           height="55"
           viewBox="0 0 120 120"
@@ -120,7 +122,7 @@
             />
           </g>
         </svg>
-      </span>
+      </div>
     </section>
   </body>
 </html>

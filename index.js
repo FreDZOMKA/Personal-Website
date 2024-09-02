@@ -15,7 +15,8 @@ const minutes = now.getMinutes();
 
 //Assignments
 const introhead = "Design. Develop.";
-const introText = "Fredrik, a programmer and graphic designer based in southern Sweden.";
+const introText =
+  "Fredrik, a programmer and graphic designer based in southern Sweden. Here you can learn more about me";
 let index = 0;
 let index1 = 0;
 
@@ -43,9 +44,7 @@ function writeText() {
 //Functions
 function updateTime() {
   // Format the string with leading zeroes
-  const clockStr = `${hours.toString().padStart(2, "0")}:${minutes
-    .toString()
-    .padStart(2, "0")}`;
+  const clockStr = `${hours.toString().padStart(2, "0")}:${minutes.toString().padStart(2, "0")}`;
 
   timeElement.innerText = clockStr;
 
