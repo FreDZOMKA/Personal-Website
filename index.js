@@ -15,8 +15,7 @@ const minutes = now.getMinutes();
 
 //Assignments
 const introhead = "Design. Develop.";
-const introText =
-  "Fredrik, a programmer and graphic designer based in southern Sweden. Here you can learn more about me";
+const introText = "Fredrik, a programmer and graphic designer based in southern Sweden. Scroll down to learn more";
 let index = 0;
 let index1 = 0;
 
