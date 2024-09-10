@@ -71,11 +71,6 @@
   grid-column: 3;
   stroke: #ffffff;
 }
-#crudSVG:hover {
-  grid-row: 2;
-  grid-column: 3;
-  stroke: #ff0000;
-}
 
 .project-arrow-path-style {
   fill: none;

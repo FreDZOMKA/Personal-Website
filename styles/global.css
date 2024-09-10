@@ -128,12 +128,3 @@ body {
   font-size: 48pt;
   margin: 0.5em;
 }
-
-.project-arrow-path-style {
-  fill: none;
-  fill-opacity: 1;
-  stroke: #ffffff;
-  stroke-width: 13;
-  stroke-dasharray: none;
-  stroke-opacity: 1;
-}
