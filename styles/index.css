@@ -91,7 +91,3 @@
   background-size: 100% 100%;
   background-image: url("/External-Resources/ruthlessCowboyScreenShot.jpg");
 }
-
-.imageLink:hover {
-  border: 1px solid white;
-}

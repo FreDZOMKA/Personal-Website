@@ -1,3 +1,4 @@
+import { gsap } from "https://cdn.jsdelivr.net/npm/gsap@3.12.2/index.js";
 //Elements
 const timeElement = document.getElementById("timeEl");
 const devDesElement = document.getElementById("intro-head");
@@ -85,3 +86,49 @@ const printStar = setInterval(() => {
     clearInterval(printStar);
   }
 }, 1);
+
+//Glowing box animation
+const glowBox = document.querySelector(".glow-box");
+const cowboyBaby = document.querySelector("#ruthlessCowboy");
+const cowboyTextEl = document.querySelector("#cowboyText");
+
+cowboyBaby.addEventListener("click", function () {
+  console.log("CLICK CLACK");
+});
+
+// Add hover animation using GSAP
+glowBox.addEventListener("mouseenter", () => {
+  gsap.to(glowBox, {
+    duration: 0.1,
+    boxShadow: "0 0 18px rgba(255,200, 100, 1)",
+    ease: "power1.inOut",
+  });
+  gsap.to(cowboyBaby, {
+    duration: 0.5,
+    color: "rgba(255,200, 100, 1)",
+    ease: "power1.inOut",
+  });
+  gsap.to(cowboyTextEl, {
+    duration: 0.5,
+    color: "rgba(255,200, 100, 1)",
+    ease: "power1.inOut",
+  });
+});
+
+glowBox.addEventListener("mouseleave", () => {
+  gsap.to(glowBox, {
+    duration: 0.1,
+    boxShadow: "0 0 0px rgba(255, 255, 255, 0)",
+    ease: "power1.inOut",
+  });
+  gsap.to(cowboyBaby, {
+    duration: 0.5,
+    color: "rgba(255, 255, 255, 1)",
+    ease: "power1.inOut",
+  });
+  gsap.to(cowboyTextEl, {
+    duration: 0.5,
+    color: "rgba(255,255, 255, 1)",
+    ease: "power1.inOut",
+  });
+});

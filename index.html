@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/styles/global.css" />
     <link rel="stylesheet" href="/styles/index.css" />
     <!-- Script-->
-    <script defer src="index.js"></script>
+    <script defer type="module" src="index.js"></script>
   </head>
   <body>
     <nav class="head-navigation">
@@ -41,12 +41,12 @@
       <!-- Grid for Project -->
       <div class="project-grid">
         <div style="grid-row: 1; grid-column: 2">
-          <h2 class="flex-center">Ruthless Cowboy</h2>
+          <h2 class="flex-center" id="ruthlessCowboy">Ruthless Cowboy</h2>
 
           <a target="_blank" href="https://ju-nmd2021.github.io/project-19/"
-            ><div class="image-container imageLink"></div
+            ><div class="image-container imageLink glow-box"></div
           ></a>
-          <p>
+          <p id="cowboyText">
             Ruthless Cowboy is a browser game made in p5play/p5.js, which is a graphic, physics and animation capable
             javascript game engine. The most educational parts of this project was handling a large amount of functions
             and graphics. Here the main objective was to learn about localstorage and working with frameworks.
