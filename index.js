@@ -29,7 +29,7 @@ const introHeadInterval = setInterval(() => {
     clearInterval(introHeadInterval);
     writeText();
   }
-}, 90);
+}, 80);
 function writeText() {
   const introTextInterval = setInterval(() => {
     if (index1 < introText.length) {
@@ -38,7 +38,7 @@ function writeText() {
     } else {
       clearInterval(introTextInterval);
     }
-  }, 40);
+  }, 20);
 }
 
 //Functions
