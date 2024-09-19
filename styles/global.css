@@ -48,6 +48,7 @@ p {
   font-family: "TT-Interphases";
   font-weight: 400;
   font-style: normal;
+  font-size: 13pt;
 }
 
 /* TT-Interphases Pro MONO */
@@ -127,4 +128,10 @@ body {
 .header1 {
   font-size: 48pt;
   margin: 0.5em;
+}
+
+.glow-box {
+  border-radius: 10px;
+  box-shadow: 0 0 0px rgba(255, 255, 255, 0);
+  transition: all 0.3s ease;
 }

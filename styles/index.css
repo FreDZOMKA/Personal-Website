@@ -44,24 +44,29 @@
 .project-grid {
   display: grid;
   gap: 10px 50px;
-  grid-template-columns: 1fr auto auto 1fr;
+  grid-template-columns: 1fr 40% 1fr;
   align-items: center;
+  margin-bottom: 5em;
 }
-.project-grid > h2 {
+.project-grid > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-grid > div > h2 {
   font-size: 24pt;
-  font-weight: 400;
+  font-weight: 600;
 }
 #rcSVG {
   grid-row: 1;
   grid-column: 3;
 }
-
-#jkpgSVG {
+#crudSVG {
   grid-row: 3;
   grid-column: 3;
 }
-#crudSVG {
-  grid-row: 2;
+#jkpgSVG {
+  grid-row: 5;
   grid-column: 3;
 }
 
@@ -76,4 +81,18 @@
 .project-arrow-path-style:hover {
   stroke: rgb(140, 255, 235);
   cursor: pointer;
+}
+
+.image-container {
+  max-width: 100%;
+  width: auto;
+  aspect-ratio: 9/5;
+  height: auto;
+  background-size: 100% 100%;
+  background-image: url("/External-Resources/ruthlessCowboyScreenShot.jpg");
+}
+
+#timeIsMoney {
+  text-decoration: none;
+  font-size: 20px;
 }
