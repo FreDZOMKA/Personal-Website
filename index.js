@@ -69,7 +69,7 @@ if (opacityInit == 0) {
 function starGeneration() {
   const starEl = document.createElement("img");
   starEl.innerText = "JSTAR";
-  starEl.setAttribute("src", "/External-Resources/flowers.svg");
+  starEl.setAttribute("src", "External-Resources/flowers.svg");
   starEl.classList.add("smallStars");
 
   starFieldElement.appendChild(starEl);
